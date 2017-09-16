@@ -1,0 +1,9 @@
+// Sublime Forum • View topic - Move cursor to top/middle/bottom of visible lines.
+// http://www.sublimetext.com/forum/viewtopic.php?f=5&t=5513
+
+[
+    { "keys": ["alt+up"], "command": "move_caret_top" },
+    { "keys": ["alt+left"], "command": "move_caret_back", "args": { "nlines": 5}  },
+    { "keys": ["alt+right"], "command": "move_caret_forward", "args": { "nlines": 5} },
+    { "keys": ["alt+down"], "command": "move_caret_bottom"},
+]
